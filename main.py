@@ -13,7 +13,7 @@ def main():
 
     total = calculate_total_with_discount(price, quantity, 10)
     total = calculate_total_with_tax(total, 1, 5)
-    print(f"Total amount: {total}")
+    print(f"Total amount is: {total}")
     print(f"Total amount with tax: {total}")
 
 main()
